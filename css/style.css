@@ -19,6 +19,7 @@
 }
 
 #jumbo-content {
+    margin-top: 100px;
     height: 200px;
     background-color: aqua;
 }
@@ -47,4 +48,3 @@ h2 {
     height: 200px;
     margin-right: 20px;
 }
-
