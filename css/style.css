@@ -4,21 +4,38 @@
 }
 
 .custom-nav {
-    background-color: rgb(11, 11, 94);
+    background-color: #2c3e50;
 }
 
 .white {
     color: white;
 }
 
+.padding {
+    padding: 30px;
+}
+
+.padding-bottom {
+    padding-bottom: 80px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* jumbo */
 #jumbotron {
-    background-color: green;
+    background-color: #1abc9c;
 }
 
 #img-resize {
-    width: 250px;
-    height: 250px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 400px;
 }
 /* Potfolio */
 h2 {
@@ -39,8 +56,7 @@ h2 {
 }
 
 .text-contain {
-    background-color: green;
-    height: 400px;
+    background-color: #1abc9c;
 }
 
 
@@ -48,4 +64,12 @@ h2 {
     background-color: blue;
     height: 200px;
     margin-right: 20px;
+}
+
+#button {
+    text-decoration: none;
+    background-color: #1bbc9c;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
 }
