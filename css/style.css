@@ -1,29 +1,26 @@
 .item {
-    background-color: black;
+    background-color: rgb(116, 105, 105);
     height: 100px;
 }
 
-.center {
-    justify-content: center;
-    align-content: center;
+.custom-nav {
+    background-color: rgb(11, 11, 94);
 }
 
-.sub-item {
-    background-color: green;
-    height: 50px;
+.white {
+    color: white;
 }
+
 /* jumbo */
 #jumbotron {
     background-color: green;
-    height: 400px;
 }
 
-#jumbo-content {
-    margin-top: 100px;
-    height: 200px;
-    background-color: aqua;
+#img-resize {
+    width: 250px;
+    height: 250px;
 }
-
+/* Potfolio */
 h2 {
     margin-top: 40px;
     text-align: center;
@@ -31,10 +28,14 @@ h2 {
 }
 
 .immagini {
-    background-color: blue;
-    height: 200px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.resize {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .text-contain {
